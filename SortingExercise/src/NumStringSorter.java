@@ -21,5 +21,24 @@ public class NumStringSorter {
 		
 		System.out.println("Sorted number list: " + nums);
 		System.out.println();
+		
+		ArrayList<Character> chars = new ArrayList<Character>();
+		Random rc = new Random();
+		
+		char c1 = (char) (rc.nextInt(26) + 'a');
+		System.out.println("First letter: " + c1);
+		chars.add(c1);
+		
+		char c2 = (char) (rc.nextInt(26) + 'a');
+		System.out.println("Second letter: " + c2);
+		chars.add(c2);
+		
+		char c3 = (char) (rc.nextInt(26) + 'a');
+		System.out.println("Third letter: " + c3);
+		chars.add(c3);
+		
+		Collections.sort(chars);
+		
+		System.out.println("Sorted letter list: " + chars);
 	}
 }
