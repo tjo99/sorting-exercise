@@ -19,6 +19,11 @@ public class NumStringSorter {
 		System.out.println("Third number: " + n3);
 		nums.add(n3);
 		
+		//extra number
+		int n4 = rn.nextInt(100);
+		System.out.println("Fourth number: " + n4);
+		nums.add(n4);
+		
 		//sort the numbers
 		Collections.sort(nums);
 		
@@ -42,6 +47,11 @@ public class NumStringSorter {
 		char c3 = (char) (rc.nextInt(26) + 'a');
 		System.out.println("Third letter: " + c3);
 		chars.add(c3);
+		
+		//extra letter
+		char c4 = (char) (rc.nextInt(26) + 'a');
+		System.out.println("Fourth letter: " + c4);
+		chars.add(c4);
 
 		//sort the letters
 		Collections.sort(chars);
